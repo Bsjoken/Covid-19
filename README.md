@@ -19,3 +19,13 @@ WHERE AGE BETWEEN 20 AND 40
 SELECT DATE_DIED
 FROM `bustling-winter-371116.Covid_19.Covid`
 WHERE AGE BETWEEN 10 and 30
+
+-Looking to see which sex had the most cases with diabetes
+
+SELECT SEX, DIABETES
+FROM `bustling-winter-371116.Covid_19.Covid`
+WHERE SEX = 1
+
+SELECT SEX, DIABETES
+FROM `bustling-winter-371116.Covid_19.Covid`
+WHERE SEX = 2
